@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url(./Wooden-Basketball-Court-Wallpaper-Mural.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+} */
+
+.sun img{
+    width: 150px;
+    height: 150px;
+    transform: translate(-200px,500px);
+    animation-name: myAnime;
+    animation-duration: 5s;
+    border-radius: 50%;
+}
+.q1{
+    width: 250px ;
+    height: 200px;
+    position: relative;
+    left: 970px;
+    top: -20px;
+
+}
+
+@keyframes myAnime{
+    0%{
+      transform: translate(-200px,500px);
+     
+    }
+    50%{
+       transform: translate(700px,0px);
+
+    }
+    75%{
+        transform: translate(1000px, 70px);
+    }
+    100%{
+        transform: translate(1000px,970px);
+       
+    }
+}
